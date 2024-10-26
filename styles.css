@@ -1,0 +1,80 @@
+body {
+    margin:0;
+    padding:0;
+    color: white;
+    /*removes default margin and padding settings*/
+}
+
+header {
+    display: flex; /*tells header this is a flex containter now*/
+    justify-content: space-evenly; /*evenly spaces out the child elements in the container*/
+    align-items: center; /* moving child elelments to  vertically center*/
+    background-color: rgb(74, 83, 103); 
+    color: white; /*font color*/
+    padding: 0; /*padding inside the header*/
+    width: 100%; /* Width to fit the screen*/
+    margin: 0 auto; /* centers header horozantally*/
+    box-shadow: 0px 4px 6px rgba( 0, 0, 0, 0.6); /* adds light shadow below header*/ 
+    flex-wrap: wrap;
+}
+
+header img {
+    border-radius: 30%; /* round corners on element */
+    box-shadow: 3px 3px 10px rgba( 0, 0, 0, 0.6); /* adds shadow to make image float*/
+    max-width: 100%; /*ensures image the image is responsive*/
+    height: auto; /* allows image to fit to any screen */
+    object-fit: cover; /* crops the image without destroying */
+}
+
+.intro{
+    max-width: 500px; /* limits the width for better readability */
+    text-align: left; /* aligns text to the left, right, center */
+}
+
+.headerPfont {
+    font-size: 30px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(74, 83, 103);
+    text-decoration: none;
+    color: white;
+
+}
+
+/*styling for the entire main element*/
+main {
+    display: flex; /*  Tells Main it is a flex container */
+    flex-direction: column; /*Stacks child elements (sections) vertically in a column */
+    align-items: center; /* Aline child elements horizontally in the center */
+    padding: 30px; /* adds padding AROUND the main content for better spacing */
+}
+ /* Styling for the Section Elements */
+section {
+    background-color: rgb(163, 160, 160); /*background color of each section*/
+    border-radius: 8px; /*adds rounded corners to section */
+    box-shadow: 0px 4px 8px rgba( 0, 0, 0, 0.6); /*box shadow making it "float"*/
+    padding: 20px; /*adds space INSIDE each section "card"*/
+    margin-bottom: 20px; /* adds space at the BOTTOM of each "card */
+    width: 100%; /*makes the section take up the full width of the MAIN container*/
+    max-width: 800px;  /* limits the width to a MAX of 800px */
+}
+
+li {
+    margin-bottom: 15px; /* space between each list item*/
+}
+
+footer {
+    background-color: #Cbf6e9;
+    height: 100px;
+    font-size: 40px;
+}
+.centerFooter {
+    text-align: center;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+}
