@@ -38,12 +38,25 @@ header img {
 .nav {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(74, 83, 103);
+    background-color: rgb(163, 160, 160);
     text-decoration: none;
     color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
 
 }
 
+.navBtn{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+a:hover{
+    color: rgb(74, 83, 103);
+}
 /*styling for the entire main element*/
 main {
     display: flex; /*  Tells Main it is a flex container */
